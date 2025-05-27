@@ -89,7 +89,7 @@ function showInformationPanel(d) {
         .attr("src", item.Image_Path)
         .attr("alt", item.Prompt)
         .attr("class", "card-img-top rounded")
-        .style("height", "80px")
+        .style("height", "140px")
         .style("object-fit", "cover");
   
       const body = card.append("div").attr("class", "card-body p-1");
